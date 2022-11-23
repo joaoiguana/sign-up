@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
 
+html{ overflow-x: hidden; }
+
 html, body { height: 100%; }
 
 body {
@@ -38,13 +40,13 @@ button, input {
 }
 
 .signup {
-  position: fixed;
+  position: absolute;
   z-index: 2;
   top: 0;
   left: 0;
   height: 100%;
   width: 70%;
-  padding: 200px 90px;
+  padding: 4rem 4em;
   background: #111820;
 }
 
@@ -61,12 +63,12 @@ button, input {
 .form {
   margin: 0;
   display: grid;
-  gap: 16px;
+  gap: 0.9rem;
 }
 
 .textbox {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 0.7rem;
 }
 
 .textbox span {
@@ -74,16 +76,16 @@ button, input {
   top: 50%;
   translate: 0 -50%;
   left: 0;
-  font-size: 22px;
+  font-size: 0.9rem;
   pointer-events: none;
   color: rgb(255 255 255 / 96%);
 }
 
 .textbox input {
-  padding: 0 24px 0 36px;
+  padding: 0 0.9rem 0 0.9rem;
   border-bottom: 2px solid #2b3442;
   color: rgb(255 255 255 / 96%);
-  height: 72px;
+  height: 3rem;
 }
 
 input:focus { border-color: #216ce7; }
